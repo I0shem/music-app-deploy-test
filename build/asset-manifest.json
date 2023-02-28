@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/music-app-deploy-test/static/css/main.a351a412.css",
-    "main.js": "/music-app-deploy-test/static/js/main.d9bbfac3.js",
+    "main.css": "/music-app-deploy-test/static/css/main.6bc83f9a.css",
+    "main.js": "/music-app-deploy-test/static/js/main.9f2909eb.js",
     "static/media/80sPop.png": "/music-app-deploy-test/static/media/80sPop.f16639cbcc09e61f43c1.png",
     "static/media/RockLegends.png": "/music-app-deploy-test/static/media/RockLegends.45a9fab81691b8fee087.png",
     "static/media/ClassicLikeNew.png": "/music-app-deploy-test/static/media/ClassicLikeNew.aa234a4ad17ac0f03aed.png",
@@ -29,11 +29,11 @@
     "index.html": "/music-app-deploy-test/index.html",
     "static/media/bin.svg": "/music-app-deploy-test/static/media/bin.d8e4c86223609736968c20afefc42f8a.svg",
     "static/media/menu-burger.svg": "/music-app-deploy-test/static/media/menu-burger.7e853c0a5ab48acf91c0582f7c6756bf.svg",
-    "main.a351a412.css.map": "/music-app-deploy-test/static/css/main.a351a412.css.map",
-    "main.d9bbfac3.js.map": "/music-app-deploy-test/static/js/main.d9bbfac3.js.map"
+    "main.6bc83f9a.css.map": "/music-app-deploy-test/static/css/main.6bc83f9a.css.map",
+    "main.9f2909eb.js.map": "/music-app-deploy-test/static/js/main.9f2909eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.a351a412.css",
-    "static/js/main.d9bbfac3.js"
+    "static/css/main.6bc83f9a.css",
+    "static/js/main.9f2909eb.js"
   ]
 }
