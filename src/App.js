@@ -1,7 +1,7 @@
 import "./App.css";
 import style from "./App.module.css";
 import React, { useEffect, useState, useLayoutEffect } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import HomePage from "./Components/MainPage/MainPage";
 import SearchPage from "./Components/SearchPage/SearchPage";
 import LibraryPage from "./Components/LibraryPage/LibraryPage";
@@ -56,11 +56,7 @@ function App(props) {
   }, []);
 
   return (
-    <BrowserRouter title="Music Player">
-      <head>
-        <meta charset="UTF-8" />
-        <title>Music Player</title>
-      </head>
+    <BrowserRouter>
       <div
         style={{ color: { Color }, minHeight: { height } }}
         title="Music Player"
@@ -148,7 +144,7 @@ function App(props) {
                             " 10%, " +
                             document.getElementById("ColorInputPrimary").value +
                             " 30%," +
-                            document.getElementById("ColorInputSecoundary")
+                            document.getElementById("ColorInputSecondary")
                               .value +
                             " 100%)"
                         )
@@ -160,7 +156,7 @@ function App(props) {
                   <hr></hr>
                   <li>
                     <div className={style.ColorInput}>
-                      <input type="color" id="ColorInputSecoundary" />
+                      <input type="color" id="ColorInputSecondary" />
                     </div>
                     <button
                       className={style.BackgroundColorButton}
@@ -171,13 +167,13 @@ function App(props) {
                             " 10%, " +
                             document.getElementById("ColorInputPrimary").value +
                             " 30%," +
-                            document.getElementById("ColorInputSecoundary")
+                            document.getElementById("ColorInputSecondary")
                               .value +
                             " 100%)"
                         )
                       }
                     >
-                      Apply new secoundary background color
+                      Apply new secondary background color
                     </button>
                   </li>
                   <hr></hr>

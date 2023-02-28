@@ -6,11 +6,9 @@ const MiniMenuBox = (props) => {
   return (
     <li className="MiniMenuBox">
       <div className="placeholder">
-        <Link className="Link" to={props.To}>
+        <Link className={styles.Link} to={props.To}>
           <props.Sprite className={styles.Icon} alt=""></props.Sprite>
-          <a href="/" className="MiniMenuText">
-            {props.text}
-          </a>
+          <p className={styles.MiniMenuText}>{props.text}</p>
         </Link>
       </div>
     </li>
